@@ -107,6 +107,23 @@
     padding: 5px 10px;
     transition: background-color 0.3s, color 0.3s;
   }
+    @media (max-width: 768px) {
+    /* Reduce the font size and padding on smaller screens */
+    .navbar ul li a {
+      font-size: 0.9rem; /* Adjust font size */
+      padding: 4px 8px;  /* Adjust padding */
+    }
+  
+    /* Reduce margin for the items on mobile */
+    .navbar ul li {
+      margin: 0 10px;
+    }
+  
+    /* Adjust the overall navbar for mobile */
+    .navbar {
+      padding: 10px;  /* Add some padding to the navbar */
+    }
+  }
 
   .navbar ul li a:hover {
     /* background-color: #ddd; */
